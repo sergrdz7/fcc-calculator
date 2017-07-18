@@ -26,10 +26,10 @@ class Calculator extends Component {
   }
 
   clearBtn(){
-    var result = '0' ;
 
     this.setState({
-      result: result,
+      prevResult: null,
+      result: '0',
       operator: null
      });
   }
